@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eurofins.ECOM.Selenium.Extension", "Eurofins.ECOM.Selenium.Extension\Eurofins.ECOM.Selenium.Extension.csproj", "{9599AABF-7FA6-4482-9334-38430F8278EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{11E68630-7862-4259-A3C7-9EBF5835D682}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eurofins.Testing.Other", "Eurofins.Testing.Other\Eurofins.Testing.Other.csproj", "{1CBED703-B22D-40EC-9660-50ED04DD5787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eurofins.PageObjects", "Eurofins.PageObjects\Eurofins.PageObjects.csproj", "{3F76C0F3-A3DB-4834-9684-768CD0CCA7B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eurofins.Tests", "Eurofins.Tests\Eurofins.Tests.csproj", "{5FA89DCF-1B31-4024-A68E-F0380B033A7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		QA_Chrome|Any CPU = QA_Chrome|Any CPU
+		QA_FF|Any CPU = QA_FF|Any CPU
+		QA_IE|Any CPU = QA_IE|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9599AABF-7FA6-4482-9334-38430F8278EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9599AABF-7FA6-4482-9334-38430F8278EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9599AABF-7FA6-4482-9334-38430F8278EC}.QA_Chrome|Any CPU.ActiveCfg = App_QA_Chrome|Any CPU
+		{9599AABF-7FA6-4482-9334-38430F8278EC}.QA_Chrome|Any CPU.Build.0 = App_QA_Chrome|Any CPU
+		{9599AABF-7FA6-4482-9334-38430F8278EC}.QA_FF|Any CPU.ActiveCfg = App_QA_FF|Any CPU
+		{9599AABF-7FA6-4482-9334-38430F8278EC}.QA_FF|Any CPU.Build.0 = App_QA_FF|Any CPU
+		{9599AABF-7FA6-4482-9334-38430F8278EC}.QA_IE|Any CPU.ActiveCfg = App_QA_IE|Any CPU
+		{9599AABF-7FA6-4482-9334-38430F8278EC}.QA_IE|Any CPU.Build.0 = App_QA_IE|Any CPU
+		{9599AABF-7FA6-4482-9334-38430F8278EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9599AABF-7FA6-4482-9334-38430F8278EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CBED703-B22D-40EC-9660-50ED04DD5787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CBED703-B22D-40EC-9660-50ED04DD5787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CBED703-B22D-40EC-9660-50ED04DD5787}.QA_Chrome|Any CPU.ActiveCfg = App_QA_Chrome|Any CPU
+		{1CBED703-B22D-40EC-9660-50ED04DD5787}.QA_Chrome|Any CPU.Build.0 = App_QA_Chrome|Any CPU
+		{1CBED703-B22D-40EC-9660-50ED04DD5787}.QA_FF|Any CPU.ActiveCfg = App_QA_FF|Any CPU
+		{1CBED703-B22D-40EC-9660-50ED04DD5787}.QA_FF|Any CPU.Build.0 = App_QA_FF|Any CPU
+		{1CBED703-B22D-40EC-9660-50ED04DD5787}.QA_IE|Any CPU.ActiveCfg = App_QA_IE|Any CPU
+		{1CBED703-B22D-40EC-9660-50ED04DD5787}.QA_IE|Any CPU.Build.0 = App_QA_IE|Any CPU
+		{1CBED703-B22D-40EC-9660-50ED04DD5787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CBED703-B22D-40EC-9660-50ED04DD5787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F76C0F3-A3DB-4834-9684-768CD0CCA7B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F76C0F3-A3DB-4834-9684-768CD0CCA7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F76C0F3-A3DB-4834-9684-768CD0CCA7B5}.QA_Chrome|Any CPU.ActiveCfg = App_QA_Chrome|Any CPU
+		{3F76C0F3-A3DB-4834-9684-768CD0CCA7B5}.QA_Chrome|Any CPU.Build.0 = App_QA_Chrome|Any CPU
+		{3F76C0F3-A3DB-4834-9684-768CD0CCA7B5}.QA_FF|Any CPU.ActiveCfg = App_QA_FF|Any CPU
+		{3F76C0F3-A3DB-4834-9684-768CD0CCA7B5}.QA_FF|Any CPU.Build.0 = App_QA_FF|Any CPU
+		{3F76C0F3-A3DB-4834-9684-768CD0CCA7B5}.QA_IE|Any CPU.ActiveCfg = App_QA_IE|Any CPU
+		{3F76C0F3-A3DB-4834-9684-768CD0CCA7B5}.QA_IE|Any CPU.Build.0 = App_QA_IE|Any CPU
+		{3F76C0F3-A3DB-4834-9684-768CD0CCA7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F76C0F3-A3DB-4834-9684-768CD0CCA7B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FA89DCF-1B31-4024-A68E-F0380B033A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA89DCF-1B31-4024-A68E-F0380B033A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA89DCF-1B31-4024-A68E-F0380B033A7C}.QA_Chrome|Any CPU.ActiveCfg = App_QA_Chrome|Any CPU
+		{5FA89DCF-1B31-4024-A68E-F0380B033A7C}.QA_Chrome|Any CPU.Build.0 = App_QA_Chrome|Any CPU
+		{5FA89DCF-1B31-4024-A68E-F0380B033A7C}.QA_FF|Any CPU.ActiveCfg = App_QA_FF|Any CPU
+		{5FA89DCF-1B31-4024-A68E-F0380B033A7C}.QA_FF|Any CPU.Build.0 = App_QA_FF|Any CPU
+		{5FA89DCF-1B31-4024-A68E-F0380B033A7C}.QA_IE|Any CPU.ActiveCfg = App_QA_IE|Any CPU
+		{5FA89DCF-1B31-4024-A68E-F0380B033A7C}.QA_IE|Any CPU.Build.0 = App_QA_IE|Any CPU
+		{5FA89DCF-1B31-4024-A68E-F0380B033A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA89DCF-1B31-4024-A68E-F0380B033A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
